@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D0A91A41080652100079CBD /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A91A31080652100079CBD /* menu.plist */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8D279BEF1072830E005A9D43 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279BEE1072830E005A9D43 /* CoreFoundation.framework */; };
+		8D279C301072856E005A9D43 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279C2F1072856E005A9D43 /* Quartz.framework */; };
+		8D279C321072856E005A9D43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279C311072856E005A9D43 /* QuartzCore.framework */; };
+		8D299A00106A75F4008D7378 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2999FF106A75F4008D7378 /* RegexKitLite.m */; };
+		8D299A15106A770A008D7378 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D299A14106A770A008D7378 /* libicucore.dylib */; };
+		8D299A45106A7AE5008D7378 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D299A44106A7AE5008D7378 /* QTKit.framework */; };
+		8D299C19106A9469008D7378 /* menu in Resources */ = {isa = PBXBuildFile; fileRef = 8D299C18106A9469008D7378 /* menu */; };
+		8D2C49C0107FC82200617C04 /* volume0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BC107FC82200617C04 /* volume0.png */; };
+		8D2C49C1107FC82200617C04 /* volume1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BD107FC82200617C04 /* volume1.png */; };
+		8D2C49C2107FC82200617C04 /* volume2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BE107FC82200617C04 /* volume2.png */; };
+		8D2C49C3107FC82200617C04 /* volume3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BF107FC82200617C04 /* volume3.png */; };
+		8D646108107B7925000A3FE9 /* crashlog in Resources */ = {isa = PBXBuildFile; fileRef = 8D646107107B7925000A3FE9 /* crashlog */; };
+		8D9E937B106C7D9F008B57A0 /* Untitled.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E937A106C7D9F008B57A0 /* Untitled.icns */; };
+		8DA1B059108352100085FCED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA1B058108352100085FCED /* Carbon.framework */; };
+		8DF6D2521046D46F00CC503D /* MYClassY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6D2511046D46F00CC503D /* MYClassY.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Untitled_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Untitled_Prefix.pch; sourceTree = "<group>"; };
+		8D0A91A31080652100079CBD /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D279BEE1072830E005A9D43 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8D279C2F1072856E005A9D43 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		8D279C311072856E005A9D43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		8D2999FE106A75F4008D7378 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		8D2999FF106A75F4008D7378 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		8D299A14106A770A008D7378 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = /usr/lib/libicucore.dylib; sourceTree = "<absolute>"; };
+		8D299A44106A7AE5008D7378 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D299C18106A9469008D7378 /* menu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menu; sourceTree = "<group>"; };
+		8D2C49BC107FC82200617C04 /* volume0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume0.png; sourceTree = "<group>"; };
+		8D2C49BD107FC82200617C04 /* volume1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume1.png; sourceTree = "<group>"; };
+		8D2C49BE107FC82200617C04 /* volume2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume2.png; sourceTree = "<group>"; };
+		8D2C49BF107FC82200617C04 /* volume3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume3.png; sourceTree = "<group>"; };
+		8D3D9E64106EB6C300CDF79F /* Hinedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hinedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D646107107B7925000A3FE9 /* crashlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crashlog; sourceTree = "<group>"; };
+		8D9E937A106C7D9F008B57A0 /* Untitled.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untitled.icns; sourceTree = "<group>"; };
+		8DA1B058108352100085FCED /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8DF6D2501046D46F00CC503D /* MYClassY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYClassY.h; sourceTree = "<group>"; };
+		8DF6D2511046D46F00CC503D /* MYClassY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYClassY.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8D299A15106A770A008D7378 /* libicucore.dylib in Frameworks */,
+				8D299A45106A7AE5008D7378 /* QTKit.framework in Frameworks */,
+				8D279BEF1072830E005A9D43 /* CoreFoundation.framework in Frameworks */,
+				8D279C301072856E005A9D43 /* Quartz.framework in Frameworks */,
+				8D279C321072856E005A9D43 /* QuartzCore.framework in Frameworks */,
+				8DA1B059108352100085FCED /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D299A44106A7AE5008D7378 /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				8D279C2F1072856E005A9D43 /* Quartz.framework */,
+				8D279C311072856E005A9D43 /* QuartzCore.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D279BEE1072830E005A9D43 /* CoreFoundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				8D299A14106A770A008D7378 /* libicucore.dylib */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D9E64106EB6C300CDF79F /* Hinedo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Hinedo */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8DF6D2501046D46F00CC503D /* MYClassY.h */,
+				8DF6D2511046D46F00CC503D /* MYClassY.m */,
+				8D646107107B7925000A3FE9 /* crashlog */,
+				8DA1B058108352100085FCED /* Carbon.framework */,
+			);
+			name = Hinedo;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D2999FE106A75F4008D7378 /* RegexKitLite.h */,
+				8D2999FF106A75F4008D7378 /* RegexKitLite.m */,
+				32CA4F630368D1EE00C91783 /* Untitled_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C49BC107FC82200617C04 /* volume0.png */,
+				8D2C49BD107FC82200617C04 /* volume1.png */,
+				8D2C49BE107FC82200617C04 /* volume2.png */,
+				8D2C49BF107FC82200617C04 /* volume3.png */,
+				8D9E937A106C7D9F008B57A0 /* Untitled.icns */,
+				8D299C18106A9469008D7378 /* menu */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				8D0A91A31080652100079CBD /* menu.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Hinedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Hinedo" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hinedo;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Hinedo;
+			productReference = 8D3D9E64106EB6C300CDF79F /* Hinedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hinedo" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Hinedo */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Hinedo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				8D299C19106A9469008D7378 /* menu in Resources */,
+				8D9E937B106C7D9F008B57A0 /* Untitled.icns in Resources */,
+				8D646108107B7925000A3FE9 /* crashlog in Resources */,
+				8D2C49C0107FC82200617C04 /* volume0.png in Resources */,
+				8D2C49C1107FC82200617C04 /* volume1.png in Resources */,
+				8D2C49C2107FC82200617C04 /* volume2.png in Resources */,
+				8D2C49C3107FC82200617C04 /* volume3.png in Resources */,
+				8D0A91A41080652100079CBD /* menu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8DF6D2521046D46F00CC503D /* MYClassY.m in Sources */,
+				8D299A00106A75F4008D7378 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Untitled_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Hinedo;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Untitled_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Hinedo;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"MAC_OS_X_VERSION_MAX_ALLOWED=1040",
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = macosx10.4;
+				VALID_ARCHS = "ppc i386";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"MAC_OS_X_VERSION_MIN_REQUIRED=1040",
+					"MAC_OS_X_VERSION_MAX_ALLOWED=1040",
+				);
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				PREBINDING = YES;
+				SDKROOT = macosx10.4;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "ppc i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Hinedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Hinedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
