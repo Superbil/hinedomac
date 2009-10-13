@@ -339,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8D2EFFA210843A1900A74C01</string>
+										<string>8DC9F40810843BDA0034076F</string>
 										<key>history</key>
 										<array>
 											<string>8DA6C68F107BB9A0004F4F19</string>
@@ -359,7 +359,7 @@
 											<string>8DA1B0981083600C0085FCED</string>
 											<string>8DCD1118108436840061ED39</string>
 											<string>8DCD11421084393A0061ED39</string>
-											<string>8DA4204C10843A0D00077BD7</string>
+											<string>8D2EFFA210843A1900A74C01</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -371,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1041, 386}}</string>
+								<string>{{0, 0}, {1041, 377}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>386pt</string>
+							<string>377pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -391,14 +391,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 391}, {1041, 287}}</string>
+								<string>{{0, 382}, {1041, 296}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>287pt</string>
+							<string>296pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -417,9 +417,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8D2EFFA310843A1900A74C01</string>
+				<string>8DC9F40910843BDA0034076F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>8D2EFFA410843A1900A74C01</string>
+				<string>8DC9F40A10843BDA0034076F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -556,6 +556,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>8DF6D2571046D77700CC503D</string>
+		<string>/Users/adolf/Desktop/xcode/hinedomac/Hinedo/Hinedo.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -635,7 +636,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>8DF6D2571046D77700CC503D</string>
-				<string>8D2EFFA510843A1900A74C01</string>
+				<string>8DC9F40B10843BDA0034076F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

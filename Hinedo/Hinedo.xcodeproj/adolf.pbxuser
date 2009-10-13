@@ -157,14 +157,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 277101074;
-			PBXWorkspaceStateSaveDate = 277101074;
+			PBXPerProjectTemplateStateSaveDate = 277101525;
+			PBXWorkspaceStateSaveDate = 277101525;
 		};
 		perUserProjectItems = {
 			8D0A91A61080718400079CBD = 8D0A91A61080718400079CBD /* PBXTextBookmark */;
 			8D2C49C7107FC8A400617C04 = 8D2C49C7107FC8A400617C04 /* PBXBookmark */;
 			8D2C49DC107FC9C000617C04 = 8D2C49DC107FC9C000617C04 /* PBXBookmark */;
-			8D2EFFA210843A1900A74C01 /* PBXTextBookmark */ = 8D2EFFA210843A1900A74C01 /* PBXTextBookmark */;
+			8D2EFFA210843A1900A74C01 = 8D2EFFA210843A1900A74C01 /* PBXTextBookmark */;
 			8D4607F1107F786600F72B8A = 8D4607F1107F786600F72B8A /* PBXTextBookmark */;
 			8D4607F3107F786600F72B8A = 8D4607F3107F786600F72B8A /* PBXTextBookmark */;
 			8D48E0E1107F475800D7E39E = 8D48E0E1107F475800D7E39E /* PlistBookmark */;
@@ -178,6 +178,7 @@
 			8DA4204C10843A0D00077BD7 = 8DA4204C10843A0D00077BD7 /* PBXTextBookmark */;
 			8DA6C68F107BB9A0004F4F19 = 8DA6C68F107BB9A0004F4F19 /* PBXTextBookmark */;
 			8DB088351080E3A100377C6D = 8DB088351080E3A100377C6D /* PlistBookmark */;
+			8DC9F40810843BDA0034076F /* PBXTextBookmark */ = 8DC9F40810843BDA0034076F /* PBXTextBookmark */;
 			8DCD1118108436840061ED39 = 8DCD1118108436840061ED39 /* PBXTextBookmark */;
 			8DCD11421084393A0061ED39 = 8DCD11421084393A0061ED39 /* PBXTextBookmark */;
 			8DCD11431084393A0061ED39 = 8DCD11431084393A0061ED39 /* PBXTextBookmark */;
@@ -224,9 +225,9 @@
 	};
 	8D2999FE106A75F4008D7378 /* RegexKitLite.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {980, 3094}}";
+			sepNavIntBoundsRect = "{{0, 0}, {980, 3068}}";
 			sepNavSelRange = "{1930, 0}";
-			sepNavVisRange = "{1704, 792}";
+			sepNavVisRange = "{1704, 677}";
 		};
 	};
 	8D2999FF106A75F4008D7378 /* RegexKitLite.m */ = {
@@ -525,6 +526,16 @@
 		name = /Users/adolf/Desktop/xcode/Hinedo/menu.plist;
 		rLen = 0;
 		rLoc = 9223372036854775808;
+	};
+	8DC9F40810843BDA0034076F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D2999FE106A75F4008D7378 /* RegexKitLite.h */;
+		name = "RegexKitLite.h: 50";
+		rLen = 0;
+		rLoc = 1930;
+		rType = 0;
+		vrLen = 677;
+		vrLoc = 1704;
 	};
 	8DCD1118108436840061ED39 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
