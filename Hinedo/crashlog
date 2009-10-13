@@ -1,0 +1,32 @@
+Thread 0 Crashed:
+0 com.apple.Foundation 0x92c02490 _NSRaiseError + 264
+1 com.apple.Foundation 0x92c021cc +[NSException raise:format:] + 40
+2 com.apple.Foundation 0x92bdb290 -[NSObject(NSForwardInvocation) forward::] + 176
+3 libobjc.A.dylib 0x90a460b0 _objc_msgForward + 176
+4 com.yourcompany.Hinedo 0x000034ac -[MYClassY setupMenu] + 240
+5 com.apple.Foundation 0x92bf19a8 -[NSSet makeObjectsPerformSelector:] + 164
+6 com.apple.AppKit 0x937ac6c0 -[NSIBObjectData nibInstantiateWithOwner:topLevelObjects:] + 864
+7 com.apple.AppKit 0x937988ec loadNib + 240
+8 com.apple.AppKit 0x93798344 +[NSBundle(NSNibLoading) _loadNibFile:nameTable:withZone:ownerBundle:] + 716
+9 com.apple.AppKit 0x937ef814 +[NSBundle(NSNibLoading) loadNibFile:externalNameTable:withZone:] + 156
+10 com.apple.AppKit 0x9387f64c +[NSBundle(NSNibLoading) loadNibNamed:owner:] + 344
+11 com.apple.AppKit 0x9387f3ec NSApplicationMain + 344
+12 com.yourcompany.Hinedo 0x00002c80 _start + 748
+13 com.yourcompany.Hinedo 0x00002990 start + 48
+
+Thread 0 Crashed:
+0 com.apple.Foundation 0x9282ee13 _NSRaiseError + 227
+1 com.apple.Foundation 0x92855c57 +[NSException raise:format:] + 57
+2 com.apple.Foundation 0x928ddfe2 -[NSObject doesNotRecognizeSelector:] + 123
+3 com.apple.Foundation 0x92801d1b -[NSObject(NSForwardInvocation) forward::] + 184
+4 libobjc.A.dylib 0x90a5ccc1 _objc_msgForward + 49
+5 com.yourcompany.Hinedo 0x00002eec -[MYClassY setupMenu] + 245
+6 com.apple.Foundation 0x927f4000 -[NSSet makeObjectsPerformSelector:] + 164
+7 com.apple.AppKit 0x9329e172 -[NSIBObjectData nibInstantiateWithOwner:topLevelObjects:] + 1015
+8 com.apple.AppKit 0x93295479 loadNib + 260
+9 com.apple.AppKit 0x93294ea9 +[NSBundle(NSNibLoading) _loadNibFile:nameTable:withZone:ownerBundle:] + 918
+10 com.apple.AppKit 0x93294b0a +[NSBundle(NSNibLoading) loadNibFile:externalNameTable:withZone:] + 164
+11 com.apple.AppKit 0x93294a4c +[NSBundle(NSNibLoading) loadNibNamed:owner:] + 392
+12 com.apple.AppKit 0x93294794 NSApplicationMain + 433
+13 com.yourcompany.Hinedo 0x00002633 _start + 209
+14 com.yourcompany.Hinedo 0x00002561 start + 41
