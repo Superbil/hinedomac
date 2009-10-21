@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		8D0A91A41080652100079CBD /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A91A31080652100079CBD /* menu.plist */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8D1ED4DD10863860008EAE2E /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1ED4DC10863860008EAE2E /* menu.plist */; };
 		8D279BEF1072830E005A9D43 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279BEE1072830E005A9D43 /* CoreFoundation.framework */; };
 		8D279C301072856E005A9D43 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279C2F1072856E005A9D43 /* Quartz.framework */; };
 		8D279C321072856E005A9D43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D279C311072856E005A9D43 /* QuartzCore.framework */; };
@@ -26,6 +26,7 @@
 		8D646108107B7925000A3FE9 /* crashlog in Resources */ = {isa = PBXBuildFile; fileRef = 8D646107107B7925000A3FE9 /* crashlog */; };
 		8D9E937B106C7D9F008B57A0 /* Untitled.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E937A106C7D9F008B57A0 /* Untitled.icns */; };
 		8DA1B059108352100085FCED /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA1B058108352100085FCED /* Carbon.framework */; };
+		8DDC2E49108E0C6900073D8B /* MYMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC2E48108E0C6900073D8B /* MYMatrix.m */; };
 		8DF6D2521046D46F00CC503D /* MYClassY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF6D2511046D46F00CC503D /* MYClassY.m */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +39,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Untitled_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Untitled_Prefix.pch; sourceTree = "<group>"; };
-		8D0A91A31080652100079CBD /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1ED4DC10863860008EAE2E /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
 		8D279BEE1072830E005A9D43 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		8D279C2F1072856E005A9D43 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		8D279C311072856E005A9D43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
@@ -56,6 +57,8 @@
 		8D646107107B7925000A3FE9 /* crashlog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crashlog; sourceTree = "<group>"; };
 		8D9E937A106C7D9F008B57A0 /* Untitled.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Untitled.icns; sourceTree = "<group>"; };
 		8DA1B058108352100085FCED /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8DDC2E47108E0C6900073D8B /* MYMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMatrix.h; sourceTree = "<group>"; };
+		8DDC2E48108E0C6900073D8B /* MYMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMatrix.m; sourceTree = "<group>"; };
 		8DF6D2501046D46F00CC503D /* MYClassY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYClassY.h; sourceTree = "<group>"; };
 		8DF6D2511046D46F00CC503D /* MYClassY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYClassY.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +142,8 @@
 				8D2999FF106A75F4008D7378 /* RegexKitLite.m */,
 				32CA4F630368D1EE00C91783 /* Untitled_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				8DDC2E47108E0C6900073D8B /* MYMatrix.h */,
+				8DDC2E48108E0C6900073D8B /* MYMatrix.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8D1ED4DC10863860008EAE2E /* menu.plist */,
 				8D2C49BC107FC82200617C04 /* volume0.png */,
 				8D2C49BD107FC82200617C04 /* volume1.png */,
 				8D2C49BE107FC82200617C04 /* volume2.png */,
@@ -155,7 +161,6 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
-				8D0A91A31080652100079CBD /* menu.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -221,7 +226,7 @@
 				8D2C49C1107FC82200617C04 /* volume1.png in Resources */,
 				8D2C49C2107FC82200617C04 /* volume2.png in Resources */,
 				8D2C49C3107FC82200617C04 /* volume3.png in Resources */,
-				8D0A91A41080652100079CBD /* menu.plist in Resources */,
+				8D1ED4DD10863860008EAE2E /* menu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +240,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				8DF6D2521046D46F00CC503D /* MYClassY.m in Sources */,
 				8D299A00106A75F4008D7378 /* RegexKitLite.m in Sources */,
+				8DDC2E49108E0C6900073D8B /* MYMatrix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

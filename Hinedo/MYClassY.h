@@ -18,10 +18,14 @@
 	IBOutlet id fReconnect;
 	IBOutlet NSSlider* volumeBar;
 	
+	IBOutlet id RadioView;
+	
 	IBOutlet NSImageView* img;
 	
 	IBOutlet NSTabView* tabview;
 	QTMovie * movie;
+	
+	NSDictionary * menuDict;
 }
 - (IBAction)playClicked:(id)sender;
 - (IBAction)stationChanged:(id)sender;
