@@ -3,19 +3,17 @@
 #import <QTKit/QTMovie.h>
 #import "RegexKitLite.h"
 #ifdef DEBUG
-#define HINEDO_MAC_VERSION @"2A3B Debug\n"
+#define HINEDO_MAC_VERSION @"3A0B Debug\n"
 #else
-#define HINEDO_MAC_VERSION @"2A3B\n"
+#define HINEDO_MAC_VERSION @"3A0B\n"
 #endif
 
 @interface MYClassY :NSObject /* Specify a superclass (eg: NSObject or NSView) */ 
 {
     IBOutlet id textField;
 	IBOutlet id versionInfo;
-	IBOutlet id menuOutlet;
 	IBOutlet id window;
 	IBOutlet NSButton* button;
-	IBOutlet id fReconnect;
 	IBOutlet NSSlider* volumeBar;
 	
 	IBOutlet id RadioView;
@@ -28,7 +26,7 @@
 	NSDictionary * menuDict;
 }
 - (IBAction)playClicked:(id)sender;
-- (IBAction)stationChanged:(id)sender;
+//- (IBAction)stationChanged:(id)sender;
 - (IBAction)volumeChanged:(id)sender;
 - (void)awakeFromNib;
 @end

@@ -19,10 +19,11 @@
 	[window setFrame:rect display:YES];*/
 }
 
+/*
 - (IBAction)stationChanged:(id)sender{
 	NSLog(@"%@\n",[[menuOutlet selectedItem] title]);
 	[self playClicked:button];
-}
+}*/
 
 - (IBAction)volumeChanged:(id)sender{
 	NSLog(@"volume %f\n",[sender floatValue]);
@@ -38,14 +39,12 @@
 		NSLog(@"Looking for %@\n",n);
 		n=[[menuDict objectForKey:n] objectAtIndex:0];
 	}
-	
+	[button setEnabled:NO];
 	if(movie!=nil){
 		[[NSNotificationCenter defaultCenter] removeObserver:self];
 		[movie stop];
 		[movie dealloc];
 		movie=nil;
-		[button setTitle:@"Play"];
-		[button setEnabled:YES];
 	}
 	
 	NSString * base=[NSString stringWithFormat:@"http://hichannel.hinet.net/player/radio/index.jsp?radio_id=%@",n];
@@ -104,6 +103,7 @@
 }
 
 - (IBAction)playClicked:(id)sender{
+	
 	[button setEnabled:NO];
 	if(movie!=nil){
 		[[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -114,10 +114,14 @@
 		[button setEnabled:YES];
 		return;
 	}
+	NSString *title=[(NSButtonCell *)[(MYMatrix *)[[tabview selectedTabViewItem] view] selectedCell] title];
+	NSLog(@"%@\n",title);
+	[self playChannel:title];
+	/*
 	NSString * title=[[menuOutlet selectedItem] title];
 	NSArray * a=[title componentsSeparatedByString:@"\t"];
 	title=[a objectAtIndex:[a count]-1];
-	[self playChannel:title];
+	[self playChannel:title];*/
 }
 
 - (NSButtonCell*) makeRadioButton:(NSString *)name{
@@ -152,7 +156,6 @@
 			[tabview addTabViewItem:tvitem];
 			cat0++;
 		}
-		//NSLog(@"key: %@, value: %@\t%@", [keys objectAtIndex:k], [(NSArray*)[menuDict objectForKey:[keys objectAtIndex:k]] objectAtIndex:0],[(NSArray*)[menuDict objectForKey:[keys objectAtIndex:k]] objectAtIndex:2]);
 	}
 	for (k=0;k<[keys count];k++) {
 		id key=[keys objectAtIndex:k];
@@ -160,8 +163,6 @@
 		NSTabViewItem * tvitem =[(NSTabView*) tabview tabViewItemAtIndex:tabi];
 		MYMatrix * matrix=[tvitem view];
 		[matrix addItem:key];
-		//[matrix addRowWithCells:[NSArray arrayWithObjects:[self makeRadioButton:key],[self makeRadioButton:key],nil]];
-		//[matrix addRowWithCells:[NSArray arrayWithObjects:[self makeRadioButton:key],[self makeRadioButton:@"Hello 0Hello 1"],nil]];
 	}
 	for(int i=1;i<[tabview numberOfTabViewItems];i++){
 		MYMatrix * m=[[tabview tabViewItemAtIndex:i] view];
@@ -170,67 +171,6 @@
 	}
 	[tabview removeTabViewItem:ttt];
 	
-	[menuOutlet removeAllItems];
-	NSRect f;
-	
-	NSFileHandle * fmenu = [NSFileHandle fileHandleForReadingAtPath:[[NSBundle mainBundle] pathForResource:@"menu" ofType:@""]];
-	//[img setImage: [[[NSImage alloc] autorelease] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"volume_high" ofType:@"png"]]];
-	NSString * line=nil;
-	NSData* aData=nil;
-	aData=[fmenu readDataToEndOfFile];
-	line=[[[NSString alloc] autorelease]initWithData:aData encoding:NSUTF8StringEncoding];
-	
-	//NSArray *chunks = [line componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\r\n"]];
-	NSArray *chunks = [line componentsSeparatedByString:@"\n"];
-
-	//printf("%d chunks\n",[chunks count]);
-	
-	int  cat=1;
-	for(int i=0;i<[chunks count];i++){
-		NSString * item=[chunks objectAtIndex:i];
-		if([item length]>0){
-			char c = [item characterAtIndex:[item length]-1];
-			if(c<'0' || c>'9'){
-				//if([(NSString *)[chunks objectAtIndex:i] length] <4){
-				NSMutableString * cats = [NSMutableString stringWithString:@""];
-				[cats appendString:@"=="];
-				[cats appendString:(NSString *)[chunks objectAtIndex:i]];
-				[cats appendString:@"=="];
-				[menuOutlet addItemWithTitle: cats];
-				
-				/*NSTabViewItem * tvitem = [[[NSTabViewItem alloc] autorelease] initWithIdentifier:nil];
-				[tvitem setLabel:(NSString *)[chunks objectAtIndex:i]];
-				[tabview addTabViewItem:tvitem];*/
-				cat++;
-
-				
-				
-			}else{
-				[menuOutlet addItemWithTitle:(NSString *)[chunks objectAtIndex:i]];
-				/*
-				NSView * rview=[[NSView alloc] init];
-				if (![NSBundle loadNibNamed:@"RadioList" owner:rview]) {
-					NSLog(@"Error loading Nib for document!");
-					//[[tvitem view] addSubview:rview];
-				} else {
-					NSLog(@"Load nib ok\n");
-					NSRect rect=[rview frame];
-					rect.size.width=100;
-					rect.size.height=100;
-					rect.origin.x=0;
-					rect.origin.y=0;
-					[[tvitem view] addSubview:rview];
-				}*/
-				
-				
-				/*NSArray * items=[tabview tabViewItems];
-				NSTabViewItem * tvitem=[items objectAtIndex:[items count]-1];*/
-			}
-		}
-	}
-	
-	
-	[fmenu closeFile];
 	srand(time(0));
 	NSError * err=nil;
 	NSString * version = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.cs.ccu.edu.tw/~ksc91u/mac/hinedo.version"] encoding:NSASCIIStringEncoding error:&err];
@@ -302,9 +242,7 @@
 	NSLog(@"movie retainCount %d\n",[movie retainCount]);
 	[movie dealloc];
 	movie=nil;
-	if([fReconnect state]){
-		[self playClicked:button];
-	}
+	[self playClicked:button];
 }
 
 @end

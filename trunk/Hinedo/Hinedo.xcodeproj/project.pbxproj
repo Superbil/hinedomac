@@ -18,7 +18,6 @@
 		8D299A00106A75F4008D7378 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2999FF106A75F4008D7378 /* RegexKitLite.m */; };
 		8D299A15106A770A008D7378 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D299A14106A770A008D7378 /* libicucore.dylib */; };
 		8D299A45106A7AE5008D7378 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D299A44106A7AE5008D7378 /* QTKit.framework */; };
-		8D299C19106A9469008D7378 /* menu in Resources */ = {isa = PBXBuildFile; fileRef = 8D299C18106A9469008D7378 /* menu */; };
 		8D2C49C0107FC82200617C04 /* volume0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BC107FC82200617C04 /* volume0.png */; };
 		8D2C49C1107FC82200617C04 /* volume1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BD107FC82200617C04 /* volume1.png */; };
 		8D2C49C2107FC82200617C04 /* volume2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C49BE107FC82200617C04 /* volume2.png */; };
@@ -48,7 +47,6 @@
 		8D2999FF106A75F4008D7378 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		8D299A14106A770A008D7378 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = /usr/lib/libicucore.dylib; sourceTree = "<absolute>"; };
 		8D299A44106A7AE5008D7378 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		8D299C18106A9469008D7378 /* menu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menu; sourceTree = "<group>"; };
 		8D2C49BC107FC82200617C04 /* volume0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume0.png; sourceTree = "<group>"; };
 		8D2C49BD107FC82200617C04 /* volume1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume1.png; sourceTree = "<group>"; };
 		8D2C49BE107FC82200617C04 /* volume2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume2.png; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 				8D2C49BE107FC82200617C04 /* volume2.png */,
 				8D2C49BF107FC82200617C04 /* volume3.png */,
 				8D9E937A106C7D9F008B57A0 /* Untitled.icns */,
-				8D299C18106A9469008D7378 /* menu */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -219,7 +216,6 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				8D299C19106A9469008D7378 /* menu in Resources */,
 				8D9E937B106C7D9F008B57A0 /* Untitled.icns in Resources */,
 				8D646108107B7925000A3FE9 /* crashlog in Resources */,
 				8D2C49C0107FC82200617C04 /* volume0.png in Resources */,
