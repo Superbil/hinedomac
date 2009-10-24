@@ -2,6 +2,7 @@
 #import "MYMatrix.h"
 #import <QTKit/QTMovie.h>
 #import <Quartz/Quartz.h>
+#include <unistd.h>
 
 
 @implementation MYClassY
@@ -35,10 +36,9 @@
 }
 
 -(void)playChannel:(NSString *)n{
-	if ([n characterAtIndex:0]<'0' || [n characterAtIndex:0]>'9') {
-		NSLog(@"Looking for %@\n",n);
-		n=[[menuDict objectForKey:n] objectAtIndex:0];
-	}
+	NSLog(@"Looking for %@\n",n);
+	n=[[menuDict objectForKey:n] objectAtIndex:0];
+	NSLog(@"radio id %@\n",n);
 	[button setEnabled:NO];
 	if(movie!=nil){
 		[[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -57,11 +57,13 @@
 	}
 	
 	NSString * regexString = [NSString stringWithString:@"(mms://.*?)(&|\")"];
+	[NSString clearStringCache];
 	NSArray *capturesArray = nil;
-	capturesArray = [web arrayOfCaptureComponentsMatchedByRegex:regexString]; 
+	capturesArray = [web captureComponentsMatchedByRegex:regexString]; 
+	NSLog(@"%@\n",capturesArray);
 	
 	NSMutableString * movieString=[NSMutableString stringWithCapacity:0];
-	[movieString appendString:[[capturesArray objectAtIndex:0] objectAtIndex:1]];
+	[movieString appendString:[capturesArray objectAtIndex:1]];
 	if([movieString rangeOfString:@"http://"].location<0){
 		[button setEnabled:YES];
 		NSLog(@"Address not found\n");
@@ -74,14 +76,16 @@
 		NSLog(@"Error init movie\n");
 		NSLog(@"%@\n",[err localizedDescription]);
 		[button setEnabled:YES];
+		web=nil;
 		return;
 	}
 	[textField setStringValue:movieString];
 	//NSLog(@"volume %f/%f\n",[volumeBar floatValue]/[volumeBar maxValue]);
 	//[movie setVolume:[volumeBar floatValue]/[volumeBar maxValue]];
-	[movie setVolume:0.2];
+	[movie setVolume:0.05];
 	[movie setRate:1.0];
-	[movie autoplay];
+	web=nil;
+	
 	
 	[[NSNotificationCenter defaultCenter] addObserver: self
 											 selector: @selector(QTMovieRateDidChangeNotificationFunuc:)
@@ -100,6 +104,7 @@
 											 selector: @selector(MyMovieShouldStopFunc:)
 												 name: @"MyMovieShouldStop"
 											   object: nil];
+	[movie autoplay];
 }
 
 - (IBAction)playClicked:(id)sender{

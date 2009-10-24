@@ -3,9 +3,9 @@
 #import <QTKit/QTMovie.h>
 #import "RegexKitLite.h"
 #ifdef DEBUG
-#define HINEDO_MAC_VERSION @"3A0B Debug\n"
+#define HINEDO_MAC_VERSION @"3A1B Debug\n"
 #else
-#define HINEDO_MAC_VERSION @"3A0B\n"
+#define HINEDO_MAC_VERSION @"3A1B\n"
 #endif
 
 @interface MYClassY :NSObject /* Specify a superclass (eg: NSObject or NSView) */ 
@@ -26,7 +26,7 @@
 	NSDictionary * menuDict;
 }
 - (IBAction)playClicked:(id)sender;
-//- (IBAction)stationChanged:(id)sender;
+- (void)playChannel:(NSString *)n;
 - (IBAction)volumeChanged:(id)sender;
 - (void)awakeFromNib;
 @end

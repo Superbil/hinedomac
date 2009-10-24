@@ -17,7 +17,6 @@
 		[btn setEnabled:NO];
 		return [btn retain];
 	}
-	NSLog(@"Make Cell for %@\n",name);
 	NSButtonCell * btn=[[[NSButtonCell alloc] autorelease] initTextCell:name];
 	[btn autorelease];
 	[btn setButtonType:NSRadioButton];

@@ -422,11 +422,5 @@
 		<integer>0</integer>
 		<string>外語</string>
 	</array>
-	<key>警廣全國交通網</key>
-	<array>
-		<string>269</string>
-		<integer>0</integer>
-		<string>交通</string>
-	</array>
 </dict>
 </plist>
