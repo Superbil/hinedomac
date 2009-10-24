@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="372"/>
+			<integer value="371"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -183,9 +183,9 @@
 				<string key="NSName">_NSMainMenu</string>
 			</object>
 			<object class="NSWindowTemplate" id="972006081">
-				<int key="NSWindowStyleMask">277</int>
+				<int key="NSWindowStyleMask">273</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{807, -226}, {451, 386}}</string>
+				<string key="NSWindowRect">{{395, 182}, {451, 386}}</string>
 				<int key="NSWTFlags">-201326592</int>
 				<string key="NSWindowTitle">Hinedo by ksc91u</string>
 				<string key="NSWindowClass">NSPanel</string>
@@ -813,9 +813,9 @@
 					<integer value="1"/>
 					<string>{74, 862}</string>
 					<string>{{6, 978}, {478, 20}}</string>
-					<string>{{671, 316}, {451, 386}}</string>
+					<string>{{503, 182}, {451, 386}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{671, 316}, {451, 386}}</string>
+					<string>{{503, 182}, {451, 386}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="NO"/>
@@ -898,12 +898,10 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>playClicked:</string>
-							<string>stationChanged:</string>
 							<string>volumeChanged:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -914,9 +912,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>RadioView</string>
 							<string>button</string>
-							<string>fReconnect</string>
 							<string>img</string>
-							<string>menuOutlet</string>
 							<string>tabview</string>
 							<string>textField</string>
 							<string>versionInfo</string>
@@ -927,9 +923,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>id</string>
 							<string>NSButton</string>
-							<string>id</string>
 							<string>NSImageView</string>
-							<string>id</string>
 							<string>NSTabView</string>
 							<string>id</string>
 							<string>id</string>
