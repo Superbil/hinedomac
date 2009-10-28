@@ -153,13 +153,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 278093214;
-			PBXWorkspaceStateSaveDate = 278093214;
+			PBXPerProjectTemplateStateSaveDate = 278421321;
+			PBXWorkspaceStateSaveDate = 278421321;
 		};
 		perUserProjectItems = {
-			8D07E69810921F2D0017FA1E = 8D07E69810921F2D0017FA1E /* PBXTextBookmark */;
-			8D6C35A110935DB000349B77 /* PBXTextBookmark */ = 8D6C35A110935DB000349B77 /* PBXTextBookmark */;
-			8D8971231092205C00D20BE8 = 8D8971231092205C00D20BE8 /* PBXTextBookmark */;
+			8D00F83210977B57008482E0 = 8D00F83210977B57008482E0 /* PBXTextBookmark */;
+			8D19309410985F4E00E847BD /* PBXTextBookmark */ = 8D19309410985F4E00E847BD /* PBXTextBookmark */;
+			8D8D11631096CE5700315B23 = 8D8D11631096CE5700315B23 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8DF6D24D1046D16A00CC503D /* Source Control */;
 		userBuildSettings = {
@@ -180,15 +180,15 @@
 			sepNavWindowFrame = "{{15, 218}, {999, 555}}";
 		};
 	};
-	8D07E69810921F2D0017FA1E /* PBXTextBookmark */ = {
+	8D00F83210977B57008482E0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
-		name = "MYClassY.h: 12";
+		name = "MYClassY.h: 33";
 		rLen = 0;
-		rLoc = 308;
+		rLoc = 714;
 		rType = 0;
-		vrLen = 1082;
-		vrLoc = 548;
+		vrLen = 1054;
+		vrLoc = 576;
 	};
 	8D1107260486CEB800E47090 /* Hinedo */ = {
 		activeExec = 0;
@@ -200,6 +200,16 @@
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, 218}, {999, 555}}";
 		};
+	};
+	8D19309410985F4E00E847BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
+		name = "MYClassY.h: 33";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 576;
 	};
 	8D1ED4DC10863860008EAE2E /* menu.plist */ = {
 		uiCtxt = {
@@ -259,25 +269,15 @@
 			sepNavVisRange = "{0, 1000}";
 		};
 	};
-	8D6C35A110935DB000349B77 /* PBXTextBookmark */ = {
+	8D8D11631096CE5700315B23 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
 		name = "MYClassY.h: 33";
 		rLen = 0;
 		rLoc = 714;
 		rType = 0;
-		vrLen = 878;
-		vrLoc = 173;
-	};
-	8D8971231092205C00D20BE8 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
-		name = "MYClassY.h: 33";
-		rLen = 0;
-		rLoc = 714;
-		rType = 0;
-		vrLen = 1100;
-		vrLoc = 530;
+		vrLen = 1054;
+		vrLoc = 576;
 	};
 	8DDC2E47108E0C6900073D8B /* MYMatrix.h */ = {
 		uiCtxt = {
@@ -313,7 +313,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {980, 767}}";
 			sepNavSelRange = "{714, 0}";
-			sepNavVisRange = "{173, 878}";
+			sepNavVisRange = "{576, 1049}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
