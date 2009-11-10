@@ -153,13 +153,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 278421321;
-			PBXWorkspaceStateSaveDate = 278421321;
+			PBXPerProjectTemplateStateSaveDate = 279540717;
+			PBXWorkspaceStateSaveDate = 279540717;
 		};
 		perUserProjectItems = {
-			8D00F83210977B57008482E0 = 8D00F83210977B57008482E0 /* PBXTextBookmark */;
-			8D19309410985F4E00E847BD /* PBXTextBookmark */ = 8D19309410985F4E00E847BD /* PBXTextBookmark */;
-			8D8D11631096CE5700315B23 = 8D8D11631096CE5700315B23 /* PBXTextBookmark */;
+			8D18919110A18B30006D3FC2 = 8D18919110A18B30006D3FC2 /* PBXTextBookmark */;
+			8D97D0B410A973FB004AFF2A /* PBXTextBookmark */ = 8D97D0B410A973FB004AFF2A /* PBXTextBookmark */;
+			8DE11F18109B002E008EAE4D = 8DE11F18109B002E008EAE4D /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8DF6D24D1046D16A00CC503D /* Source Control */;
 		userBuildSettings = {
@@ -180,16 +180,6 @@
 			sepNavWindowFrame = "{{15, 218}, {999, 555}}";
 		};
 	};
-	8D00F83210977B57008482E0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
-		name = "MYClassY.h: 33";
-		rLen = 0;
-		rLoc = 714;
-		rType = 0;
-		vrLen = 1054;
-		vrLoc = 576;
-	};
 	8D1107260486CEB800E47090 /* Hinedo */ = {
 		activeExec = 0;
 		executables = (
@@ -201,15 +191,15 @@
 			sepNavWindowFrame = "{{15, 218}, {999, 555}}";
 		};
 	};
-	8D19309410985F4E00E847BD /* PBXTextBookmark */ = {
+	8D18919110A18B30006D3FC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
 		name = "MYClassY.h: 33";
 		rLen = 0;
 		rLoc = 714;
 		rType = 0;
-		vrLen = 1049;
-		vrLoc = 576;
+		vrLen = 1047;
+		vrLoc = 578;
 	};
 	8D1ED4DC10863860008EAE2E /* menu.plist */ = {
 		uiCtxt = {
@@ -269,15 +259,15 @@
 			sepNavVisRange = "{0, 1000}";
 		};
 	};
-	8D8D11631096CE5700315B23 /* PBXTextBookmark */ = {
+	8D97D0B410A973FB004AFF2A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
-		name = "MYClassY.h: 33";
+		name = "MYClassY.h: 38";
 		rLen = 0;
-		rLoc = 714;
+		rLoc = 848;
 		rType = 0;
-		vrLen = 1054;
-		vrLoc = 576;
+		vrLen = 687;
+		vrLoc = 0;
 	};
 	8DDC2E47108E0C6900073D8B /* MYMatrix.h */ = {
 		uiCtxt = {
@@ -294,6 +284,16 @@
 			sepNavVisRange = "{75, 402}";
 			sepNavWindowFrame = "{{15, 218}, {999, 555}}";
 		};
+	};
+	8DE11F18109B002E008EAE4D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8DF6D2501046D46F00CC503D /* MYClassY.h */;
+		name = "MYClassY.h: 33";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 578;
 	};
 	8DF6D24D1046D16A00CC503D /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -312,8 +312,8 @@
 	8DF6D2501046D46F00CC503D /* MYClassY.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {980, 767}}";
-			sepNavSelRange = "{714, 0}";
-			sepNavVisRange = "{576, 1049}";
+			sepNavSelRange = "{848, 0}";
+			sepNavVisRange = "{0, 687}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
