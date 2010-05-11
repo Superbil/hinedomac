@@ -3,9 +3,9 @@
 #import <QTKit/QTMovie.h>
 #import "RegexKitLite.h"
 #ifdef DEBUG
-#define HINEDO_MAC_VERSION @"3A1B Debug\n"
+#define HINEDO_MAC_VERSION @"3A2B Debug\n"
 #else
-#define HINEDO_MAC_VERSION @"3A1B\n"
+#define HINEDO_MAC_VERSION @"3A2B\n"
 #endif
 
 @interface MYClassY :NSObject /* Specify a superclass (eg: NSObject or NSView) */ 
@@ -22,6 +22,8 @@
 	
 	IBOutlet NSTabView* tabview;
 	QTMovie * movie;
+	
+	float volume;
 	
 	NSDictionary * menuDict;
 }

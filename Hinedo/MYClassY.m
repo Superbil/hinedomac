@@ -28,6 +28,8 @@
 
 - (IBAction)volumeChanged:(id)sender{
 	NSLog(@"volume %f\n",[sender floatValue]);
+	volume=[sender floatValue]/[sender maxValue];
+	[[NSUserDefaults standardUserDefaults] setFloat:volume forKey:@"HRLastUsedVolume"];
 	[movie setVolume:[sender floatValue]/[sender maxValue]];
 	int i=(int)(floor([sender floatValue]/25.0));
 	NSImage * image=[[NSImage alloc] autorelease];
@@ -47,7 +49,7 @@
 		movie=nil;
 	}
 	
-	NSString * base=[NSString stringWithFormat:@"http://hichannel.hinet.net/player/radio/index.jsp?radio_id=%@",n];
+	NSString * base=[NSString stringWithFormat:@"http://hichannel.hinet.net/player/radio/mediaplay.jsp?radio_id=%@",n];
 	NSError * err=nil;
 	NSString * web = [NSString stringWithContentsOfURL:[NSURL URLWithString:base] encoding:NSUTF8StringEncoding error:&err];
 	if(web==nil){
@@ -82,7 +84,7 @@
 	[textField setStringValue:movieString];
 	//NSLog(@"volume %f/%f\n",[volumeBar floatValue]/[volumeBar maxValue]);
 	//[movie setVolume:[volumeBar floatValue]/[volumeBar maxValue]];
-	[movie setVolume:0.05];
+	[movie setVolume:volume];
 	[movie setRate:1.0];
 	web=nil;
 	
@@ -208,6 +210,12 @@
 
 - (void)awakeFromNib{
 	[self setupMenu];
+	volume=[[NSUserDefaults standardUserDefaults] floatForKey:@"HRLastUsedVolume"];
+	if (volume==0) {
+		volume=0.2;
+	}
+	//[[NSUserDefaults standardUserDefaults] setFloat:[volumeSlider floatValue] forKey:@"HRLastUsedVolume"];
+	//volume=0.2;
 }
 
 - (void)QTMovieRateDidChangeNotificationFunuc:(NSNotification *)notification
